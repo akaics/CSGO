@@ -11,6 +11,13 @@
 
             Console.WriteLine(player1);
             Console.WriteLine(player2);
+
+
+            Weapon weapon1 = new Weapon("AK-47", 90, 25, 2);
+            Weapon weapon2 = new Weapon("M4A1-S", 80, 30, 1);
+
+            Console.WriteLine(weapon1);
+            Console.WriteLine(weapon2);
         }
     }
 }
