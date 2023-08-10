@@ -14,15 +14,17 @@ namespace CSGO
         private string nickName;
         private int kills;
         private int deaths;
+        private string teamSelected;
 
         //Konstruktør:
 
-        public Player(int Id, string NickName, int Kills, int Deaths)
+        public Player(int Id, string NickName, int Kills, int Deaths, string TeamSelected)
         {
             id = Id;
             nickName = NickName;
             kills = Kills;
             deaths = Deaths;
+            teamSelected = TeamSelected;
         }
 
         //Properties:
@@ -32,6 +34,7 @@ namespace CSGO
         public int Kills { get { return kills; } }
 
         public int Deaths { get { return deaths; } }
+        public string TeamSelected { get { return teamSelected; } } 
 
 
         // ToString() method: 
