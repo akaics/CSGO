@@ -39,6 +39,8 @@ namespace CSGO
             reloadTime = ReloadTime;
             price = Price;
             team = Team;
+
+         
         }
 
         public override string ToString()
