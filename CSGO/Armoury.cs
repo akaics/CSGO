@@ -26,7 +26,7 @@ namespace CSGO
         }
         public void Create(int id, string name, int damage, int ammo, int reloadTime, int price, string team)
         {
-            weapons.Add(new Weapon(id, name, damage, ammo, reloadTime, price, team));
+            weapons.Add(1, new Weapon(id, name, damage, ammo, reloadTime, price, team));
         }
 
 
